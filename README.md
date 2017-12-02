@@ -9,7 +9,7 @@ var ebay = require('ezebay');
 
 const appID = 'ID'; // Get your app ID at https://developer.ebay.com/join/
 
-music('iPhone', appID, function(res) {
+ebay('iPhone', appID, function(res) {
     console.log(res)
 });
 ```
